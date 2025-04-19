@@ -1,0 +1,7 @@
+{
+    "init_supply": "1000000000000000000000000",
+    "name": "Test Token",
+    "ticker": "TEST",
+    "decimals": "18"
+  }
+  

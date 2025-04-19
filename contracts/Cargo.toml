@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+
+members = [
+  "erc20_token",
+  "erc20_token/meta"
+]
