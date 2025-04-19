@@ -1,12 +1,12 @@
 [package]
-name = "neversea"
+name = "erc20_token"
 version = "0.0.0"
 authors = ["you"]
 edition = "2021"
 publish = false
 
 [lib]
-path = "src/neversea.rs"
+path = "src/lib.rs"
 
 [dependencies.multiversx-sc]
 version = "0.52.3"

@@ -1,5 +1,5 @@
 [package]
-name = "neversea-meta"
+name = "erc20_token-meta"
 version = "0.0.0"
 edition = "2021"
 publish = false
@@ -7,7 +7,7 @@ authors = ["you"]
 
 [dev-dependencies]
 
-[dependencies.neversea]
+[dependencies.erc20_token]
 path = ".."
 
 [dependencies.multiversx-sc-meta-lib]

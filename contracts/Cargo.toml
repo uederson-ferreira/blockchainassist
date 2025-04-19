@@ -2,6 +2,6 @@
 resolver = "2"
 
 members = [
-  "neversea",
-  "neversea/meta"
+  "erc20_token",
+  "erc20_token/meta"
 ]
