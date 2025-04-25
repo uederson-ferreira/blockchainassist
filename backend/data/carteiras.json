@@ -1,0 +1,24 @@
+[
+    {
+      "nome": "carteira1",
+      "endereco": "0x123",
+      "seed": "seed exemplo carteira1",
+      "chave_privada": "privkey1",
+      "saldo": 10.5
+    },
+    {
+      "nome": "carteira2",
+      "endereco": "0xabc",
+      "seed": "seed exemplo carteira2",
+      "chave_privada": "privkey2",
+      "saldo": 25.0
+    },
+    {
+      "nome": "carteira3",
+      "endereco": "0xdef",
+      "seed": "seed exemplo carteira3",
+      "chave_privada": "privkey3",
+      "saldo": 0.0
+    }
+  ]
+  

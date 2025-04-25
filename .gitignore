@@ -86,7 +86,7 @@ StyleCopReport.xml
 !Directory.Build.rsp
 *.sbr
 *.tlb
-*.tli
+*.tlia
 *.tlh
 *.tmp
 *.tmp_proj
@@ -517,3 +517,5 @@ tags
 
 deploy-out.json
 deploy.json
+
+carteiras/carteira1
