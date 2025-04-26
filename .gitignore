@@ -519,3 +519,58 @@ deploy-out.json
 deploy.json
 
 carteiras/carteira1
+
+# Ambiente virtual Python
+.venv/
+
+# Arquivo de personagem atual selecionado (não precisa versionar)
+ia/eliza-starter/.agent
+
+# Cache e arquivos temporários do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings (opcional, mas bom ignorar se tiver .vscode/)
+.vscode/
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+
+# Node.js dependencies da Eliza Starter
+ia/eliza-starter/node_modules/
+ia/eliza-starter/dist/
+ia/eliza-starter/.next/
+ia/eliza-starter/.turbo/
+ia/eliza-starter/.vercel/
+
+# Build TypeScript da Eliza Starter
+ia/eliza-starter/**/*.js
+ia/eliza-starter/**/*.d.ts
+ia/eliza-starter/**/*.js.map
+
+# Arquivos de lock de pacotes (se você quiser ignorar - depende)
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Configurações pessoais e caches
+.DS_Store
+.env
+*.env
+*.swp
+*.swo
+
+# Pasta de upload ou gravações (se criar futuramente)
+uploads/
+recordings/
+
+# Backup automático de editores
+*~
+*.bak
+
+# Resultados de testes (se for usar futuramente)
+coverage/
+htmlcov/
