@@ -19,7 +19,7 @@ def ouvir_microfone():
                 texto = r.recognize_google(audio, language='pt-BR')
                 print(f"📝 Você disse: {texto}")
 
-                if "encerre a gravação" in texto.lower():
+                if "enviar para você" in texto.lower():
                     print("✅ Comando de voz para encerrar detectado!")
                     break
                 else:
