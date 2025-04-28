@@ -16,7 +16,7 @@ def main():
 
         if texto_usuario:
             # 🔥 Verifica se a pessoa pediu para sair
-            if "sair do sistema" in texto_usuario.lower():
+            if "encerrar aplicação" in texto_usuario.lower():
                 print("\n🚪 Comando de voz detectado: Encerrando o sistema...")
                 break
 
